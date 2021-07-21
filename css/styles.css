@@ -1,0 +1,266 @@
+:root{
+    --primery-text-color: #757575;
+    --background-color:#FFFFFF;
+    --selection-color:#212121;
+    --accent-color:#2196F3;
+    --section-color: #E5E5E5;
+    --button-bg-color:#F5F4FA;
+    --footer-color:rgba(255, 255, 255, 0.6);
+    --hero-color:#2F303A;
+}
+
+body {
+    background-color: var(--background-color); 
+    color: var(--primery-text-color);
+
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+.head{
+    background-color: var(--background-color);
+}
+.list {
+    list-style: none;
+    
+}
+.firstpart{
+    color: var(--accent-color);
+}
+.logo {
+    color: var(--selection-color);
+    text-decoration: none;
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    
+
+}
+
+.logo:hover, .logo:focus{
+    color: var(--accent-color);
+}
+
+.site-nav .link {
+    color: var(--selection-color);
+    text-decoration: none;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.19;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.auth .link{
+    color: var(--primery-text-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+
+.auth .link:hover,
+.auth .link:focus {
+    color: var(--accent-color);
+}
+
+.hero{
+    background-color: var(--hero-color);
+}
+
+.first-button{
+    background-color: var(--accent-color);
+    color: var(--background-color);
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+}
+
+.hero-title {
+    
+    color: var(--background-color);
+    
+    
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+}
+
+.section{
+    color: var(--section-color);
+}
+
+.section-title {
+    color: var(--selection-color);
+    
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    
+}
+
+.feature-list .title{
+    color: var(--selection-color);
+    
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.feature-list .text{
+    color: var(--primery-text-color);
+
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.work-list{
+    color: var(--selection-color);
+}
+
+.worker-list .title{
+    color: var(--selection-color);
+    
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    
+}
+
+.worker-list .text{
+    color: var(--primery-text-color);
+    
+    
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.feature-list, .work-list, .worker-list{
+    list-style: none;
+}
+
+.footer{
+    background-color: var(--hero-color)
+}
+
+.footer .logo{
+    color: var(--background-color);
+}
+
+.footer .logo:hover,
+.footer .logo:focus{
+    color: var(--accent-color);
+}
+
+
+.foot-nav .basement .address{
+    color: var(--background-color);
+    text-decoration: none;
+
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.foot-nav .basement .address:hover,
+.foot-nav .basement .address:focus{
+    color: var(--accent-color);
+}
+
+
+.foot-nav .basement .link{
+    
+    color: var(--footer-color);
+    text-decoration: none;
+
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+
+.foot-nav .basement .link:hover,
+.foot-nav .basement .link:focus{
+    color: var(--accent-color);
+}
+
+
+
+.button-list{
+    list-style: none;
+}
+
+.button-list .second-button{
+    background-color: var(--button-bg-color);
+    color: var(--selection-color);
+}
+
+.button-list .second-button:hover,
+.button-list .second-button:focus{
+    background-color: var(--accent-color);
+    color: var(--background-color);
+}
+
+
+.block-list{
+    list-style: none;
+    
+}
+
+.block-list .link{
+    text-decoration: none;
+}
+
+.block-list .title{
+    color: var(--selection-color);
+    text-decoration: none;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+}
+
+.block-list .text{
+    color: var(--primery-text-color);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.basement{
+    list-style: none;
+}
+
+
+
+
+
+
+
+/* колір основного текста #212121 */
+/* другорядний колір rgba(33, 33, 33, 1) */
+
+/* акцент #2196F3 */
+/* білий  #FFFFFF */
+/* сірий rgba(117, 117, 117, 1)*/
