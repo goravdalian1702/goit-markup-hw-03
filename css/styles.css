@@ -39,10 +39,15 @@ h1, h2, h3, h4, h5, h6, p, ul{
     background-color: var(--background-color);
 }
 
-.header-container{
+.header-conteiner{
+
     display: flex;
     align-items: center;
+    
 }
+
+
+
 .list {
     padding: 0;
     margin: 0;
@@ -106,6 +111,7 @@ h1, h2, h3, h4, h5, h6, p, ul{
 }
 
 .auth-nav{
+    
     display: flex;
     margin-left: auto;
     
@@ -113,6 +119,7 @@ h1, h2, h3, h4, h5, h6, p, ul{
 }
 
 .auth-nav .auth-nav-iteam{
+    
     margin-right: 50px;
 }
 
@@ -122,6 +129,7 @@ h1, h2, h3, h4, h5, h6, p, ul{
 
 
 .auth-nav .link{
+    display: block;
     color: var(--primery-text-color);
     text-decoration: none;
     font-weight: 500;
